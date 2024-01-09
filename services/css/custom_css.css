@@ -1,0 +1,135 @@
+
+
+@media only screen and (min-width: 1000px){
+.content .container .container_inner.default_template_holder, .content .container .container_inner.page_container_inner {
+    padding-top: 0;
+}
+}
+
+/*** Colored Menus **/
+nav.main_menu > ul > li:first-child a{
+    color:#f60;
+}
+
+nav.main_menu > ul > li:last-child a{
+    color:#f90;
+}
+
+nav.main_menu > ul > li:nth-child(2) a{
+    color:#76BF53;
+}
+
+nav.main_menu > ul > li:nth-child(3) a{
+    color:#F8496A;
+}
+
+nav.main_menu > ul > li:nth-child(4) a{
+    color:#F38C09;
+}
+
+nav.main_menu > ul > li:nth-child(5) a{
+    color:#76BF53;
+}
+
+nav.main_menu > ul > li:nth-child(6) a{
+    color:#f33796;
+}
+
+nav.main_menu > ul > li:nth-child(7) a{
+    color:#009ee0;
+}
+/**End**/
+
+.orange{
+color: #f07204;
+}
+
+.green{
+color: #78B857;
+}
+
+.cover_boxes ul li .box h3 {
+font-size: 13px;
+line-height: 20px;
+font-weight: 500;
+letter-spacing: 6px;
+}
+@media only screen and (min-width: 1000px){
+.header_menu_bottom_inner{
+ display:inline-block;
+ width:100%;
+ vertical-align:middle;
+
+}
+nav.main_menu > ul > li {
+  margin: 0 3px;
+}
+nav.main_menu > ul > li:first-child {
+  margin-left: 0;
+}
+.side_menu_button a:last-child {
+  padding-right: 24px;
+}
+}
+
+@media only screen and (max-width: 1000px){
+.header_fixed_right_area{
+ display:none !important;
+}
+header.menu_bottom.has_header_fixed_right .mobile_menu_button,
+header.menu_bottom.has_header_fixed_right .side_menu_button{
+	height:100px !important
+}
+}
+
+.q_accordion_holder.accordion.boxed .ui-accordion-header {
+    background-color: #f9f9f9;
+    color: #009de3;
+    padding-left: 9px;
+   text-align: left;
+   text-transform: none;
+}
+
+.footer_top.footer_top_full {
+    padding: 20px;
+}
+
+table td, table th{
+text-align:left;
+}
+
+.latest_post_holder.image_in_box .latest_post_inner {
+    width: 80%;
+}
+
+ul li{
+list-style:none;
+}
+
+.blog_text_holder_outer {
+    height: 20%;
+    text-align: center;
+}
+
+.blog_slider_holder{
+height: 200px;
+}
+
+.blog_slider .image {
+    position: relative;
+    height:250px;
+}
+
+.blog_slider.simple_slider .blog_slides .blog_text_holder_inner {
+    color: #303030;
+    background: #ccebf8;
+}
+
+.blog_slider_holder .blog_slider.simple_slider .blog_text_holder_inner2 {
+    border: none;
+    background-color: #ccebf8;
+}
+
+.blog_slider_holder .blog_slider.simple_slider .blog_text_holder_inner2 {
+    padding: 4%;
+}
